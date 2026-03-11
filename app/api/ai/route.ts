@@ -1,9 +1,26 @@
 import { NextResponse } from 'next/server'
 import groq from '@/lib/openai'
+import { createClient } from '@/lib/supabase-server'
 
 export async function POST(request: Request) {
   try {
-    const { action, text, prompt } = await request.json()
+    // Authenticate user
+    const supabase = await createClient()
+    const { data: { user } } = await supabase.auth.getUser()
+
+    if (!user) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+    }
+
+    // Validate request body
+    let body: any
+    try {
+      body = await request.json()
+    } catch {
+      return NextResponse.json({ error: 'Invalid JSON body' }, { status: 400 })
+    }
+
+    const { action, text, prompt } = body
 
     if (!action || (!text && !prompt)) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
