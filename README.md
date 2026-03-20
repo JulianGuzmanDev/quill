@@ -6,9 +6,9 @@
 
 ## 📸 Screenshots
 
-![Screenshot](Captura de pantalla 2026-03-19 222718.png)
-![Screenshot 2](Captura de pantalla 2026-03-19 222840.png)
-![Screenshot 3](Captura de pantalla 2026-03-19 222921.png)
+![Quill](quill-editor1.png)
+![Quill](quill-editor2.png)
+![Quill](quill-editor3.png)
 
 ## 📌 Descripción
 
