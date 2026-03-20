@@ -6,7 +6,7 @@
 
 ## 📸 Screenshots
 
-![Screenshot](nombre-de-tu-archivo.png)
+![Screenshot](Captura de pantalla 2026-03-19 222718.png)
 ![Screenshot 2](nombre-de-tu-archivo-2.png)
 ![Screenshot 3](nombre-de-tu-archivo-2.png)
 
