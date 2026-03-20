@@ -4,6 +4,12 @@
 
 [Live Demo](https://quill-zeta-two.vercel.app)
 
+## 📸 Screenshots
+
+![Screenshot](nombre-de-tu-archivo.png)
+![Screenshot 2](nombre-de-tu-archivo-2.png)
+![Screenshot 3](nombre-de-tu-archivo-2.png)
+
 ## 📌 Descripción
 
 Quill es un bloc de notas moderno impulsado por IA que te permite crear, editar y organizar tus documentos de manera eficiente. Soluciona el problema de la gestión de notas tradicionales al integrar inteligencia artificial para resumir, reescribir y generar contenido automáticamente. Con autenticación segura y un diseño oscuro elegante, Quill hace que escribir y colaborar sea una experiencia fluida y productiva.
